@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void bubbleSort(int v[], int n);
+void selection(int v[], int n);
 
 int main(){
 
@@ -8,14 +8,13 @@ int main(){
 
     int n = 5;
 
-    bubbleSort(vetor,n);
+    selection(vetor,n);
 
     printf("Vetor ordenado:\n");
 
     for(int i=0;i<n;i++){
 
         printf("%d ", vetor[i]);
-
     }
 
     return 0;
