@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void selection(int v[], int n);
+void mergeSort(int v[], int n);
 
 int main(){
 
@@ -8,13 +8,14 @@ int main(){
 
     int n = 5;
 
-    selection(vetor,n);
+    mergeSort(vetor,n);
 
     printf("Vetor ordenado:\n");
 
     for(int i=0;i<n;i++){
 
         printf("%d ", vetor[i]);
+
     }
 
     return 0;
