@@ -172,3 +172,4 @@ docs/uso-ia.md
 ## Autor
 
 Thiago Santos Leis
+Jônatas Almeida de Sousa
