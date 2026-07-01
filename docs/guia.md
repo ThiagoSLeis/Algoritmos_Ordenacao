@@ -1,0 +1,43 @@
+# Guia de Execução
+
+## Compilar programa principal
+
+```bash
+make
+```
+
+## Compilar testes
+
+```bash
+make test
+```
+
+## Executar programa principal
+
+```bash
+./programa.exe
+```
+
+## Executar testes
+
+```bash
+./teste.exe
+```
+
+## Gerar cobertura
+
+```bash
+make coverage
+```
+
+## Gerar perfil de desempenho
+
+```bash
+make profile
+```
+
+## Limpar arquivos gerados
+
+```bash
+make clean
+```

@@ -1,0 +1,32 @@
+# Cobertura de Código (gcov)
+
+## Objetivo
+
+Verificar quais trechos do código foram executados durante os testes.
+
+## Comando executado
+
+```bash
+make coverage
+```
+
+## Arquivos gerados
+
+- *.gcda
+- *.gcno
+- *.gcov
+
+## Resultado esperado
+
+Todos os algoritmos implementados devem possuir cobertura adequada através dos testes:
+
+- Bubble Sort
+- Selection Sort
+- Insertion Sort
+- Merge Sort
+- Quick Sort
+- Heap Sort
+
+## Observação
+
+A cobertura auxilia na identificação de linhas que não foram executadas.
